@@ -1,4 +1,6 @@
-print("Working")
+n=input("Enter a word: ")
 
-for i in range(10):
-    print("I <3 Joshua!!!")
+if n.lower()==n[::-1].lower():
+    print("pal")
+else:
+    print("no pal")
